@@ -12,6 +12,7 @@ You should now be able to carry out the analysis:
 
 (1) The R script entanglement-assoc-pathways.R can be run to generate the file processed-data/analysis-results.csv
 
-(2) The R script create-figures reads in the data in analysis-results.csv to generate the figures in figures/*. 
+(2) The R script report-results.R reads in the data in analysis-results.csv to generate the figures in figures/*. 
     Note that this R script also checks the dimensions of the data.frames "enriched" and "depleted" to determine how many
-    pathways are enriched versus depleted in proteins containing non-covalent lasso entanglements. 
+    pathways are enriched versus depleted in proteins containing non-covalent lasso entanglements. These results are written
+    to processed-data/enriched.csv and processed-data/depleted.csv, respectively. 
