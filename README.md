@@ -2,9 +2,9 @@ Download the repo and unpack it. Install RStudio with R version 4.4.1 (2024-06-1
 
 Double click the file interview-code.Rproj to open the project. In the RStudio Console, run the command 
 
-install.packages("renv")
+(1) install.packages("renv")
 
-renv::init()
+(2) renv::init()
 
 And select that you want to restore from the lockfile (Option 1). A number of packages and their dependencies will be installed. 
 
